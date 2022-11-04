@@ -1,0 +1,595 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>КАМА</title>
+		<link rel="stylesheet" href="assets/css/style.css" type="text/css"/>
+		<link href="fontawesome/css/all.css" rel="stylesheet">
+		<link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/>
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+	</head>
+	<body class="home">
+		<header class="header">
+			<nav class="wrapper d-flex navigation">
+				<a href="index.html" class="header__logo"></a>
+				<a href="#!" class="navigation-mobile-collapse"><span class="span"></span></a>
+				<ul class="navigation-menu">
+					<li>
+						<a href="index.html">Главная</a>
+					</li>
+					<li>
+						<a href="catalog/sanitary engineering/gas-supply.html">Каталог</a>
+					</li>
+					<li>
+						<a href="supports.html">Партнеры</a>
+					</li>
+					<li>
+						<a href="vacancy.html">Вакансии</a>
+					</li>
+					<li>
+						<a href="team.html">Сотрудники</a>
+					</li>
+					<li>
+						<a href="contacts.html">Контакты</a>
+					</li>
+				</ul>
+			</nav>
+		</header>
+		<main>
+			<div class="modal fade" id="banner1" tabindex="-1" aria-labelledby="banner1Label" aria-hidden="true">
+				<div class="modal-dialog">
+					<div class="modal-content">
+						<div class="modal-header">
+							<h5 class="modal-title" id="banner1Label">
+								Форма обратной связи
+							</h5>
+						</div>
+						<div class="modal-body">
+							<form class="needs-validation" novalidate>
+								<div class="mb-3">
+									<label for="recipient-name1" class="col-form-label modal__text">Ваше имя:</label>
+									<input type="text" class="form-control" id="recipient-name1" placeholder="Введите Ваше имя">
+								</div>
+								<div class="mb-3">
+									<label for="recipient-name12" class="col-form-label modal__text">Ваш телефон:</label>
+									<input type="tel" class="form-control" id="recipient-name12" placeholder="Введите Ваш номер телефона">
+								</div>
+								<div class="mb-3">
+									<label for="recipient-name13" class="col-form-label modal__text">Ваш e-mail:</label>
+									<input type="email" class="form-control" id="recipient-name13" placeholder="Введите Ваш e-mail">
+								</div>
+								<div class="mb-3">
+									<label for="message-text1" class="col-form-label modal__text">Оставьте коменнтарий:</label>
+									<textarea class="form-control" rows="4" id="message-text1" placeholder="Комментарий"></textarea>
+								</div>
+							</form>
+						</div>
+						<div class="modal-footer">
+							<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Закрыть</button>
+							<button type="button" class="btn-send">Отправить</button>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="modal fade" id="banner2" tabindex="-1" aria-labelledby="banner2Label" aria-hidden="true">
+				<div class="modal-dialog">
+					<div class="modal-content">
+						<div class="modal-header">
+							<h5 class="modal-title" id="banner2Label">
+								Форма обратной связи
+							</h5>
+						</div>
+						<div class="modal-body">
+							<form class="needs-validation" novalidate>
+								<div class="mb-3">
+									<label for="recipient-name3" class="col-form-label modal__text">Ваше имя:</label>
+									<input type="text" class="form-control" id="recipient-name3" placeholder="Введите Ваше имя">
+								</div>
+								<div class="mb-3">
+									<label for="recipient-name31" class="col-form-label modal__text">Ваш телефон:</label>
+									<input type="tel" class="form-control" id="recipient-name31" placeholder="Введите Ваш номер телефона">
+								</div>
+								<div class="mb-3">
+									<label for="recipient-name32" class="col-form-label modal__text">Ваш e-mail:</label>
+									<input type="email" class="form-control" id="recipient-name32" placeholder="Введите Ваш e-mail">
+								</div>
+								<div class="mb-3">
+									<label for="message-text3" class="col-form-label modal__text">Оставьте коменнтарий:</label>
+									<textarea class="form-control" rows="4" id="message-text3" placeholder="Комментарий"></textarea>
+								</div>
+							</form>
+						</div>
+						<div class="modal-footer">
+							<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Закрыть</button>
+							<button type="button" class="btn-send">Отправить</button>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="modal fade" id="banner9" tabindex="-1" aria-labelledby="banner4Label" aria-hidden="true">
+				<div class="modal-dialog">
+					<div class="modal-content">
+						<div class="modal-header">
+							<h5 class="modal-title" id="banner4Label">
+								Форма обратной связи
+							</h5>
+						</div>
+						<div class="modal-body">
+							<form class="needs-validation" novalidate>
+								<div class="mb-3">
+									<label for="recipient-name4" class="col-form-label modal__text">Ваше имя:</label>
+									<input type="text" class="form-control" id="recipient-name4" placeholder="Введите Ваше имя">
+								</div>
+								<div class="mb-3">
+									<label for="recipient-name41" class="col-form-label modal__text">Ваш телефон:</label>
+									<input type="tel" class="form-control" id="recipient-name41" placeholder="Введите Ваш номер телефона">
+								</div>
+								<div class="mb-3">
+									<label for="recipient-name42" class="col-form-label modal__text">Ваш e-mail:</label>
+									<input type="email" class="form-control" id="recipient-name42" placeholder="Введите Ваш e-mail">
+								</div>
+								<div class="mb-3">
+									<label for="message-text5" class="col-form-label modal__text">Оставьте коменнтарий:</label>
+									<textarea class="form-control" rows="4" id="message-text5" placeholder="Комментарий"></textarea>
+								</div>
+							</form>
+						</div>
+						<div class="modal-footer">
+							<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Закрыть</button>
+							<button type="button" class="btn-send">Отправить</button>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="swiper bannerSwiper">
+				<div class="swiper-wrapper">
+					<div class="swiper-slide">
+						<div class="banner">
+							<div class="wrapper banner__info">
+								<h1 class="banner__h1">С нами выгодно</h1>
+								<p class="banner__p">Доверьте нам уют в своём доме.Всё для ремонта и обустройства дома в одном месте </p>
+								<p class="banner__p">Сэкономьте бюджет и время</p>
+								<!-- modal-form -->
+									<button 
+										type="button" 
+										class="btn banner__btn" 
+										data-bs-toggle="modal" 
+										data-bs-target="#banner1" 
+										data-bs-whatever="@mdo">
+										Связаться
+									</button>
+							</div>
+						</div>
+					</div>
+					<div class="swiper-slide">
+						<div class="banner">
+							<div class="wrapper banner__info">
+								<h1 class="banner__h1">С нами выгодно</h1>
+								<p class="banner__p">Доверьте нам уют в своём доме.Всё для ремонта и обустройства дома в одном месте </p>
+								<p class="banner__p">Сэкономьте бюджет и время</p>
+								<!-- modal-form -->
+									<button 
+										type="button" 
+										class="btn banner__btn" 
+										data-bs-toggle="modal" 
+										data-bs-target="#banner2" 
+										data-bs-whatever="@mdo">
+										Связаться
+									</button>
+							</div>
+						</div>
+					</div>
+					<div class="swiper-slide">
+						<div class="banner">
+							<div class="wrapper banner__info">
+								<h1 class="banner__h1">С нами выгодно</h1>
+								<p class="banner__p">Доверьте нам уют в своём доме.Всё для ремонта и обустройства дома в одном месте </p>
+								<p class="banner__p">Сэкономьте бюджет и время</p>
+								<!-- modal-form -->
+								<button 
+								type="button" 
+								class="btn banner__btn" 
+								data-bs-toggle="modal" 
+								data-bs-target="#banner9" 
+								data-bs-whatever="@mdo">
+								Связаться
+							</button>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="swiper-pagination"></div>
+			</div>
+			<!-- about us -->
+			<div class="about wrapper">
+				<div class="title">
+					<h2 class="title-h2">О нас</h2>
+				</div>
+				<div class="about__container d-flex">
+					<div class="about__bg"></div>
+					<div class="about__info-text">
+						<p class="about__text">
+							Эксклюзивный дистрибьютер мировых брендов в сфере сантехники, лакокрасочных продукций, строительных материалов, а также посуды.
+						</p>
+						<p class="about__text">
+							Мы работаем более с 50 крупными заводами по всему миру
+						</p>
+					</div>
+				</div>
+				<div class="d-flex about__info">
+					<div class="line about__text margin">
+							Более 20 лет оптовая база КАМА представляет строительные материалы по заводским ценам как частным клиентам, так и корпоративным заказчикам
+					</div>
+					<div class="line about__text">
+						Огромный спектр продукции, большая материально-техническая база и многолетние отношения с заводами и клиентами позволили нам стать передовой компанией в сфере оптовых продаж стройматериалов
+					</div >
+				</div>
+			</div>
+			<div class="vector"></div>
+						<!-- info -->
+						<div class="wrapper infographics">
+							<div class="infographics-block">
+								<div class="infographics-header">
+									<h2>СТАБИЛЬНОСТЬ И ОПЫТ</h2>
+								</div>
+								<div class="infographics-main">
+									БОЛЕЕ 
+									<div class="counter" data-target="20">20</div>
+									 лет на рынке
+								</div>
+								<div class="infographics-footer">
+									Мы продолжаем снабжать рынок качественными товарами на протяжении 22 лет
+								</div>
+							</div>
+							<div class="infographics-block">
+								<div class="infographics-header">
+									<h2>ОХВАТ и ПРИСУСТВИЕ</h2>
+								</div>
+								<div class="infographics-main">
+									Мы охватываем и снабжаем весь Кыргызстан
+								</div>
+								<div class="infographics-footer">
+									Абсолютно в каждой области,в каждом городе предоставлены наши товары
+								</div>
+							</div>
+							<div class="infographics-block">
+								<div class="infographics-header">
+									<h2>ПАРТНЕРСТВО</h2>
+								</div>
+								<div class="infographics-main">
+									БОЛЕЕ 
+									<div class="counter" data-target="1000">1000</div>
+									бизнес клиентов
+								</div>
+								<div class="infographics-footer">
+									Мы активно сотрудничем более чем с 1000 бизнес клиентами и партнерами
+								</div>
+							</div>
+							<div class="infographics-block">
+								<div class="infographics-header">
+									<h2>АССОРТИМЕНТ</h2>
+								</div>
+								<div class="infographics-main">
+									БОЛЕЕ 
+									<div class="counter" data-target="3000">3000</div>
+									наименований товара
+								</div>
+								<div class="infographics-footer">
+									У нас более 3000 наименований товара в разных отраслях,начиная с товарами для ремонта ,декорирования а также товарами для дома и детей
+								</div>
+							</div>
+						</div>
+			<!--  -->
+			<div class="vector"></div>
+			<div class="our-brands__container">
+				<div class='wrapper'>
+					<p class="brands__p">Собственное производство</p>
+					<div class="our-brands">
+						<div class="brand-artego"></div>
+						<div class="brand-colibry"></div>
+					</div>
+				</div>
+			</div>
+			<div class="vector"></div>
+			<!-- category -->
+			<div class="category ">
+				<div class="wrapper">
+					<div class="">
+						<div class="title">
+							<h2 class="title-h2 white">Направления</h2>
+						</div>
+					</div>
+					<div class="category-block d-flex">
+						<div class="category_container">
+							<div class="onclick" data-tooltip="
+							водоснабжение, канализация, отопление, изоляция труб, насосное оборудование, газоснабжение">
+								<img src="assets/img/icons/santeh-f.png" class="icon-size45" alt="">
+								<p class="category__p-2">Инженерная сантехника</p>
+							</div>
+						</div>				
+						<div class="category_container">
+							<div class="onclick" data-tooltip="
+							лако-красочные, пены, клеи, герметики">
+								<img src="assets/img/icons/paint-f.png" class="icon-size45" alt="">
+								<p class="category__p">Интерьер и отделка</p>
+							</div>
+						</div>	
+						<div class="category_container">
+							<div class="onclick" data-tooltip="
+							сухие и строительные смеси, 
+							гидроизоляция">
+								<img src="assets/img/icons/cement-f.png" class="icon-size45" alt="">
+								<p class="category__p-2">Строительные материалы</p>
+							</div>
+						</div>		
+						<div class="category_container">
+							<div class="onclick" data-tooltip="
+							малярные инструменты,
+							штукатурный отдел и инструменты">
+								<img src="assets/img/icons/trowel-f.png" class="icon-size45" alt="">
+								<p class="category__p">Ручные инструменты</p>
+							</div>
+						</div>				
+						<div class="category_container">
+							<div class="onclick" data-tooltip="
+							с антипригарным покрытие,
+							с декоративным покрытием,
+							нержавеющая сталь,
+							литая посуда,
+							хлебные формы,
+							для туризма">
+								<img src="assets/img/icons/frying-f.png" class="icon-size45" alt="">
+								<p class="category__p">Посуда</p>
+							</div>
+						</div>	
+						<div class="category_container">
+							<div class="onclick" data-tooltip="
+							декоративная штукатурка,
+							краски,
+							грунтовка,
+							лаки , эмали">
+								<img src="assets/img/icons/factory-f.png" class="icon-size45" alt="">
+								<p class="category__p-2">Собственное производство</p>
+							</div>
+						</div>		
+						<div class="category_container">
+							<div class="onclick" data-tooltip="	Мы работаем более с 50 крупными заводами по всему миру">
+								<img src="assets/img/icons/detergent.png" class="icon-size45" alt="">
+								<p class="category__p">Хозтовары</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- form -->
+			<div class="follow">
+				<div class='wrapper'>
+					<p class="follow__p">У вас есть вопросы? Свяжитесь с нами!</p>
+					<div class="follow__form d-flex">
+						<div>
+							<input class="follow__input" type="text" placeholder="Введите имя">
+						</div>
+						<div>
+							<input class="follow__input" type="tel" placeholder="Введите номер">
+						</div>
+						<div>
+							<button class="follow__btn"> Связаться</button>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- vacancy -->
+			<div class="vacancy wrapper">
+				<div class="title">
+					<h2 class="title-h2 vacancy__h2">Присоединяйся к нам</h2>
+				</div>
+				<div class="vacancy__info d-flex">
+					<div>
+						<p class="vacancy__text">
+							Мы Компания которая развивает и развивается вместе с нашими клиентами и партнёрами. <br>
+							Вы нужны нам, если вы хотите предоставлять клиентам качественную продукцию, помочь людям в создании комфортной жизни и увеличить базу своих клиентов
+						</p>
+						<a href="vacancy.html">
+							<button class="vacancy__btn">Вакансии</button>
+						</a>
+					</div>
+					<div class="vacancy__img"></div>
+				</div>
+			</div>
+			<!-- slider -->
+			<div class="container-brands wrapper">
+				<div class="title1">
+					<h2 class="title-h2 h2-brands">Наши партнеры</h2>
+				</div>
+				<div class="swiper mySwiper">
+					<div class="swiper-wrapper">
+						<div class="swiper-slide">
+							<a href="http://www.alvanarshiapaint.com/" class="brand-size brand1"></a>
+						</div>
+						<div class="swiper-slide">
+							<a href="https://giacomini.ru.com/" class="brand-size brand3"></a>
+						</div>
+						<div class="swiper-slide">
+							<a href="https://www.henkel.ru/" class="brand-size brand4"></a>
+						</div>
+						<div class="swiper-slide">
+							<a href="https://kalitva-posuda.ru/" class="brand-size brand5"></a>
+						</div>
+						<div class="swiper-slide">
+							<a href="https://xn--j1agcjjg.xn--p1ai/" class="brand-size brand6"></a>
+						</div>
+						<div class="swiper-slide">
+							<a href="https://kukmara.com/" class="brand-size brand7"></a>
+						</div>
+						<div class="swiper-slide">
+							<a href="https://shop-sti.ru/" class="brand-size brand8"></a>
+						</div>
+						<div class="swiper-slide">
+							<a href="https://xn--80adjmzq0d.xn--p1ai/" class="brand-size brand9"></a>
+						</div>
+						<div class="swiper-slide">
+							<a href="https://namerenie.com/product-type/valiki-i-komplektuyushhie/" class="brand10"></a>
+						</div>
+						<div class="swiper-slide">
+							<a href="https://instagram.com/babylandco.kg?igshid=YmMyMTA2M2Y=" class="brand-size brand11"></a>
+						</div>
+						<div class="swiper-slide">
+							<a href="https://www.makroflex.ru/ru.html" class="brand-size brand13"></a>
+						</div>
+						<div class="swiper-slide">
+							<a href="https://www.metylan.ru/ru.html" class="brand-size brand14"></a>
+						</div>
+						<div class="swiper-slide">
+							<a href="https://www.moment.ru/ru.html" class="brand-size brand15"></a>
+						</div>
+						<div class="swiper-slide">
+							<a href="https://www.vgt-decor.ru/" class="brand-size brand16"></a>
+						</div>
+						<div class="swiper-slide">
+							<a href="https://tula.elfgroup.ru/" class="brand-size brand17"></a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</main>
+		<footer class="footer">
+			<div class="footer-container wrapper">
+					<div class="row">
+							<div class="col-sm-4 col-lg-3">
+									<div class="item_1">
+											<div class="item_one">
+												<a href="index.html" class="footer__logo"></a>
+											</div>
+											<div class="icons">
+												<a href="https://www.instagram.com/kama_glob/">
+													<i class="fa-brands fa-instagram iii"></i>
+												</a>
+												<a href="">
+													<i class="fab fa-telegram-plane iii"></i>
+												</a>
+												<a href="">
+													<i class="fab fa-whatsapp iii"></i>
+												</a>
+											</div>
+									</div>
+									<p class="footer__text size">© Copyright 2022 - Atlas Soft</p>
+							</div>
+							<div class="col-sm-4 col-lg-2">
+									<div class="item_2">
+											<ul class="item__ul">
+													<li class="item__li mode">Меню</li>
+													<li class="item__li">
+														<a class="footer__link" href="index.html">
+															Главная
+														</a>
+													</li>
+													<li class="item__li">
+														<a class="footer__link" href="catalog/sanitary engineering/gas-supply.html">
+															Каталог
+														</a>
+													</li>
+													<li class="item__li"> 
+														<a class="footer__link" href="vacancy.html">
+															Вакансии
+														</a>
+													</li>
+													<li class="item__li"> 
+														<a class="footer__link" href="team.html">
+															Сотрудники
+														</a>
+													</li>
+													<li class="item__li">
+														<a class="footer__link" href="contacts.html">
+															Контакты
+														</a>
+													</li>
+											</ul>
+									</div>
+							</div>
+							<div class="col-sm-4 col-lg-3">
+									<div class="item_3">
+											<ul class="item__ul">
+												<li class="item__li mode">Свяжитесь с нами</li>
+													<li class="item__li">
+														<a class="footer__link" href="https://go.2gis.com/9rd114">
+															​Мурманская 1/1,	Бишкек, Кыргызстан
+														</a>
+													</li>
+													<li class="item__li">
+														<a class="footer__link" href="mailto:osookama@mail.ru">
+															osookama@mail.ru
+														</a>
+													</li>
+													<li class="item__li">
+														<a class="footer__link" href="tel:+996772572700">
+															+996 772 572 700
+														</a>
+													</li>
+											</ul>
+									</div>
+							</div>
+							<div class="col-sm-12 col-lg-4">
+									<div class="item_4">
+											<div class="item_4__title">Знайте, что вы всегда на лучшей и энергетической сделке.</div>
+											<input class="form-control form-control-lg mt-4 mb-3" type="text"
+													placeholder="Остались вопросы?" aria-label=".form-control-lg example">
+											<button class="item_4-btn">Мы ответим</button>
+									</div>
+							</div>
+					</div>
+			</div>
+		</footer>
+		<script
+		src='https://code.jquery.com/jquery-3.6.0.js'
+		integrity='sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk='
+		crossorigin='anonymous'>
+		</script>
+
+		<script 
+			src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" 
+			integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" 
+			crossorigin="anonymous">
+		</script>
+
+		<script src="js/index.js"></script>
+		<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+		<script>
+			var swiper = new Swiper(".mySwiper", {
+				loop: true,
+				autoplay: {
+				delay: 1,
+				disableOnInteraction: false
+				},
+					slidesPerView: '5',
+					speed: 2000,
+					grabCursor: true,
+					mousewheelControl: true,
+					keyboardControl: true,				
+			});
+		</script>
+		<!-- <script>
+			const counters = document.querySelectorAll('.counter');
+
+			counters.forEach(counter => {
+				counter.innerText = '0';
+
+				const updateCounter = () => {
+				const target = +counter.getAttribute
+				('data-target');
+				const c = +counter.innerText;
+
+				const increment = target / 200;
+
+				if (c < target) {
+					counter.innerText = `${Math.ceil(c + increment)}`;
+					setTimeout(updateCounter, 1)
+				}
+				console.log(increment);
+			}
+			updateCounter();
+		});
+		</script> -->
+	</body>
+</html>
